@@ -1,29 +1,33 @@
+/*Affect all html elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Changes the background color of the body*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Formats padding, font-style, background color
+ and text color inside the header tag*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Effects the display and font-size of h1
+ elements inside the header tag*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Effects the text color of the seo class
+ inside h1 inside the header tag*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Formats all divs and their text inside the header tag*/
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +35,25 @@ header div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Gets rid of the automatic bullet points*/
 header div ul {
     list-style-type: none;
 }
-
+/*Makes list elements inline instead of block*/
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Changes color and text decoration for all anchor elements*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Changes the font size for all paragragh elements*/
 p {
     font-size: 16px;
 }
-
+/*Formats the background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,13 +62,14 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Modifies the section with content class. 
+Makes them take up 3/4 of the width of the page.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Effect the  divs inside of the section with the content class*/
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -73,26 +78,30 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Sets the max height of images to 200 pixels
+ inside the content class section*/
 .content img {
     max-height: 200px;
 }
-
+/*Effects the bottom margin and font size of
+ all h2s inside the conetnt class section*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Puts elements with this class to the left of their section,
+ 25 pixels away from the border*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*Puts elements with this class to the right of their section,
+ 25 pixels away from the border*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Formats the section with the benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,30 +112,31 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Formats divs inside the benefit class section*/
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Aligns and adds margins to h3s inside
+ of divs inside the benefits class section*/
 .benefits div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Formats images inside the benefits class section*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Formats the footer*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Changes the font size of h2s inside the footer*/
 footer h2 {
     font-size: 20px;
 }
